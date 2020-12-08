@@ -1,0 +1,23 @@
+{
+  "name": "simple-affiliate",
+  "version": "1.0.0",
+  "description": "Library to interact with the simple-affiliate APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prpatel05/simple-affiliate.git"
+  },
+  "keywords": [
+    "simple-affiliate",
+    "affiliate"
+  ],
+  "author": "Pratik Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prpatel05/simple-affiliate/issues"
+  },
+  "homepage": "https://github.com/prpatel05/simple-affiliate#readme"
+}
