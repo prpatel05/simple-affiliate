@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Library to interact with the simple-affiliate APIs",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "lint": "eslint .",
     "test": "mocha test/*.js --exit --recursive --reporter spec",
