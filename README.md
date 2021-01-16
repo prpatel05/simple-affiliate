@@ -20,4 +20,8 @@ const jsonResult = await simpleAffiliate.createAffiliateLink();
 ## createAffiliateLink([targetLink])
 Return the payload from the SimpleAffiliate web page.
 
-NOTE: Will need to manually example `jsonResult.authData.linkRows` for the affiliate link.
+NOTE: Will need to manually inspect `jsonResult.authData.linkRows` for the affiliate link.
+E.g.
+```
+const affiliateLinks = json.authData.linkRows.filter(row => row.targetPath == targetLink);
+```
