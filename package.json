@@ -1,6 +1,6 @@
 {
   "name": "simple-affiliate",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Library to interact with the simple-affiliate APIs",
   "main": "index.js",
   "types": "index.d.ts",

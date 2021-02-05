@@ -12,6 +12,9 @@ const loadMocks = () => {
                 resolve({
                     json: () => {
                         return {test: "test"};
+                    },
+                    clone: () => {
+                        return this;
                     }
                 });
             });
@@ -31,8 +34,12 @@ const loadBadMocks = () => {
                     json: () => {
                         throw Error();
                     },
-                    text: () => {
-                        return "text";
+                    clone: () => {
+                        return {
+                            text: () => {
+                                return "text";
+                            },
+                        }
                     }
                 });
             });
